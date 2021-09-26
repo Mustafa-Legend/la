@@ -40,4 +40,6 @@
   				btn.removeClass('disabled');
   				alert('Loading more comments failed. Please try again later.');
   			});
-  			ret
+  			return false;
+  		});
+  	})(jQuery);
